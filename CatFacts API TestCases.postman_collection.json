@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "00e0a355-8027-4711-8bd7-56843b76aff7",
+		"name": "CatFacts API TestCases",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1856808"
+	},
+	"item": [
+		{
+			"name": "Send a cat fact",
+			"item": [
+				{
+					"name": "Verify get cat fact sucessfull",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Verify get a cat fact is not sucessfull",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Verify get a cat fact response length is not null and positive",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Verify get multiple cat facts sucessfull",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
